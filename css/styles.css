@@ -1,0 +1,19 @@
+body {
+	background-color: #CCFFFF;
+}
+
+.footer {
+	display: block;
+	padding: 1em;
+	margin: 1.5em;
+	color: lightgrey;
+	border-top: solid 1px lightgrey;
+	font-family: Consolas;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+.footer:before {
+	white-space: pre;
+	content: "	| Created by K.Krzemińska & W.Hryniewska | ";
+}
